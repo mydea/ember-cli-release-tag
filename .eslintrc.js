@@ -16,5 +16,25 @@ module.exports = {
     node: true
   },
   rules: {
-  }
+  },
+  overrides: [
+    // node tests
+    {
+      files: [
+        'node-tests/**'
+      ],
+      parserOptions: {
+        sourceType: 'script',
+        ecmaVersion: 2017
+      },
+      env: {
+        browser: false,
+        node: true,
+        mocha: true
+      },
+      rules: {
+        'node/no-unpublished-require': 'off'
+      }
+    },
+  ]
 };
