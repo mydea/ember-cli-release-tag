@@ -24,6 +24,10 @@
 /tests/
 /yarn.lock
 .gitkeep
+/.idea
+/node-tests
+/.yarnrc
+/.npmrc
 
 # ember-try
 /.node_modules.ember-try/
