@@ -78,7 +78,7 @@ describe('release command', function() {
     expect(packageJson).to.deep.equals({ version: '0.1.0', author: 'Francesco Novy' });
 
     expect(cmd._options.ui._messages).to.deep.equal([
-      chalk.yellow('About to create tag "v0.1.0" and push to remote origin, proceed?'),
+      chalk.yellow('About to create git tag "v0.1.0", and push to remote origin, proceed?'),
       chalk.green('Successfully created git tag "v0.1.0" locally.'),
       chalk.green('Successfully pushed changes to origin.')
     ]);
@@ -102,8 +102,8 @@ describe('release command', function() {
 
     expect(cmd._options.ui._messages).to.deep.equal([
       chalk.yellow('Your working tree contains staged, but uncommitted changes that will be added to the release commit, proceed?'),
+      chalk.yellow('About to create a release commit, create git tag "v0.1.0", and push to remote origin, proceed?'),
       chalk.green('Successfully committed changes "Released v0.1.0" locally.'),
-      chalk.yellow('About to create tag "v0.1.0" and push to remote origin, proceed?'),
       chalk.green('Successfully created git tag "v0.1.0" locally.'),
       chalk.green('Successfully pushed changes to origin.')
     ]);
@@ -123,7 +123,7 @@ describe('release command', function() {
     expect(packageJson).to.deep.equals({ version: '0.1.0', author: 'Francesco Novy' });
 
     expect(cmd._options.ui._messages).to.deep.equal([
-      chalk.yellow('About to create tag "v0.1.0", proceed?'),
+      chalk.yellow('About to create git tag "v0.1.0", proceed?'),
       chalk.green('Successfully created git tag "v0.1.0" locally.')
     ]);
   });
