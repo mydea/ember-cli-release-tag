@@ -1,6 +1,10 @@
 ember-cli-release-tag
 ==============================================================================
 
+
+[![Build Status](https://travis-ci.org/mydea/ember-cli-release-tag.svg?branch=master)](https://travis-ci.org/mydea/ember-cli-release-tag)
+[![npm version](https://badge.fury.io/js/ember-cli-release-tag.svg)](https://badge.fury.io/js/ember-cli-release-tag)
+
 Easily create Git release tags for your apps and addons.
 
 This is a modern re-imagination of [ember-cli-release](https://github.com/shipshapecode/ember-cli-release).
