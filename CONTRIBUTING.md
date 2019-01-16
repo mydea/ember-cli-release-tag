@@ -2,7 +2,7 @@
 
 ## Installation
 
-* `git clone <repository-url>`
+* `git clone https://github.com/mydea/ember-cli-release-tag.git`
 * `cd ember-cli-release-tag`
 * `yarn`
 
