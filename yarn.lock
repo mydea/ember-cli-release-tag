@@ -4980,9 +4980,9 @@ silent-error@^1.0.0, silent-error@^1.0.1, silent-error@^1.1.0, silent-error@^1.1
     debug "^2.2.0"
 
 simple-git@^1.107.0:
-  version "1.116.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.116.0.tgz#ea6e533466f1e0152186e306e004d4eefa6e3e00"
-  integrity sha512-Pbo3tceqMYy0j3U7jzMKabOWcx5+67GdgQUjpK83XUxGhA+1BX93UPvlWNzbCRoFwd7EJTyDSCC2XCoT4NTLYQ==
+  version "1.120.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.120.0.tgz#3323a763ee88f9733bd928a65cb6eb2982f64c53"
+  integrity sha512-caF3eLrUSrL6d5fBVU85bmY0lpbMpbkWze1W2Tg946kN75s/WWvKqpc4Agn3DLHyzXEeiWfv8yPULiCKumuIQg==
   dependencies:
     debug "^4.0.1"
 
