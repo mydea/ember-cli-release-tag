@@ -17,7 +17,7 @@
     "test": "node node-tests/index.js"
   },
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "semver": "^6.3.0",
     "silent-error": "^1.1.1",
     "simple-git": "^1.124.0"
